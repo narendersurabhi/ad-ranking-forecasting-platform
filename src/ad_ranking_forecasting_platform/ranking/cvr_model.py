@@ -1,0 +1,1 @@
+from ad_ranking_forecasting_platform.ranking.ctr_model import train_ctr_model as train_cvr_model
