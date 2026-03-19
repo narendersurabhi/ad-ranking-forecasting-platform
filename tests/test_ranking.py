@@ -1,4 +1,3 @@
-import pandas as pd
 
 from ad_ranking_forecasting_platform.config import ScoringWeights
 from ad_ranking_forecasting_platform.data.synthetic import SyntheticConfig, generate_all
