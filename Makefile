@@ -30,3 +30,9 @@ test:
 
 lint:
 	ruff check .
+
+simulate-pacing:
+	$(PYTHON) scripts/simulate_campaign_pacing.py
+
+check-drift:
+	$(PYTHON) scripts/run_drift_checks.py

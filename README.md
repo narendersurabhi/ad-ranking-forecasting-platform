@@ -57,11 +57,10 @@ make test
 - Real campaign pacing state is simulated from generated budget signals.
 - Serving loads local artifacts and local CSV tables.
 
-## Future improvements
-- Calibration report for CTR probabilities
-- Rich pacing simulator and budget burn-down dashboard
-- Persistent metrics backend with Prometheus exporter
-- Feature drift checks integrated into CI
+## Recent enhancements
+- Added a CTR calibration and reliability report in ranking evaluation outputs.
+- Added campaign pacing simulation with budget burn-down artifacts for campaign operations analysis.
+- Added a persistent SQLite observability backend and automated drift checks in CI.
 
 ## Interview narrative
 - Retrieval and ranking are separate to reduce latency and improve control.
